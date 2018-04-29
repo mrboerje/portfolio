@@ -1,0 +1,47 @@
+body {
+  background-image: url("file:///Users/jneidel/notes/misc/contents/patterns/leather-nunchuck.png");
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;  
+}
+.text {
+  background-color: #FFF;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text1 {
+  font-size: 42px;
+  color: #000000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.text2 {
+font-size: 18px;
+}
+.portfolio {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+img{
+  width:30%;
+  border: 4px black solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+img:hover {
+  box-shadow: 0 14px 25px 1px #ff6900;
+  transform: translateY( -4px );
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
